@@ -8,6 +8,7 @@ AnimationCrazy Video Downloader
 
 ### 项目介绍
 一个通过Python编写的, 用于下载动画疯视频的下载器。  
+（来自一个编程业余爱好者的拙劣作品）
 A downloader for AnimationCrazy videos based on Python.
 
 ### 版权信息
