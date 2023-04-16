@@ -28,6 +28,7 @@ This project consists of two parts: ac-dl.py and [N_m3u8DL-RE](https://github.co
 ![20230416203628](https://user-images.githubusercontent.com/106590233/232311382-f63f8f3c-df0e-4c9d-81e9-41a9aeccc0bf.png)  
   
 ### 补充
-并非所有的视频都采用了“iv偏移”, 故当这种情况出现时, 程序会给出提示“未找到初始偏移向量”, 但该提示与下载失败非充要条件。  
+1. 并非所有的视频都采用了“iv偏移”, 故当这种情况出现时, 程序会给出提示“未找到初始偏移向量”, 但该提示与下载失败非充要条件。  
 例如下图中, 该视频无iv, 但最终仍然下载成功, “未找到初始偏移向量”仅为提示用。  
 ![20230416204444](https://user-images.githubusercontent.com/106590233/232312379-31ff35e7-0722-4161-a2f2-002ea3859464.png)
+2. 在本项目中出现的“sn号匹配”检测仅为二次核对, 以免因输入错误导致下载失败。
