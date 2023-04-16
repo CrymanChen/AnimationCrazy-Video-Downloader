@@ -1,0 +1,8 @@
+requests
+urllib.request
+os
+subprocess
+re 
+bs4
+colorama
+ctypes
